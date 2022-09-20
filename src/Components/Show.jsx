@@ -9,9 +9,6 @@ function Actor() {
         dataUrl = `https://api.tvmaze.com/search/shows?q=${inputVal}`;
     } 
     
-    // else {
-    //     dataUrl = `https://api.tvmaze.com/search/shows?q=friends`;
-    // }
 
     const getshowData = async () => {
         try {
@@ -25,7 +22,7 @@ function Actor() {
     useEffect(() => {
         getshowData();
     }, [inputVal]);
-    // console.log(showData);
+    
     return (
         <>
             <section className="mt-5">
