@@ -1,14 +1,12 @@
 # TvMaze
 
+
 Project Name : TVmaze
 
 
 Project Hosted Link:
 https://tv-maze-sage.vercel.app/
 
-
-Github Link:
-https://github.com/asif-4u/TvMaze
 
 
 TVmaze
