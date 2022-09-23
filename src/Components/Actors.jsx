@@ -54,9 +54,7 @@ function Actor() {
                         className="poster"
                         style={{ width: "255px", height: "325px" }}
                         alt={
-                          element.person.name != null
-                            ? element.person.name
-                            : "Not found"
+                          element.person.name != null ? element.person.name : "Not found"
                         }
                       />
                     ) : (
