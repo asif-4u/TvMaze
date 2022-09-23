@@ -57,9 +57,7 @@ function Actor() {
                                         height: "325px",
                                         }}
                                       alt={
-                                        element.show.name != null
-                                          ? element.show.name
-                                          : "Not found"
+                                        element.show.name != null ? element.show.name: "Not found"
                                       }
                                     />
                                   ) : (
@@ -88,8 +86,8 @@ function Actor() {
                                     <span>
                                       <i
                                         class="fa fa-star text-success"
-                                        aria-hidden="true"
-                                      ></i>{" "}
+                                        aria-hidden="true"> 
+                                      </i>{" "}
                                       {element.show.rating.average}
                                     </span>
                                   </div>
